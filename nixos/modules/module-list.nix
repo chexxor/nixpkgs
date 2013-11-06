@@ -71,6 +71,7 @@
   ./security/rngd.nix
   ./security/rtkit.nix
   ./security/setuid-wrappers.nix
+  ./security/ssl.nix
   ./security/sudo.nix
   ./services/amqp/activemq/default.nix
   ./services/amqp/rabbitmq.nix

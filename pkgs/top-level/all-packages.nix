@@ -1093,6 +1093,8 @@ let
 
   heimdall = callPackage ../tools/misc/heimdall { };
 
+  heroku-client = callPackage ../development/tools/misc/heroku { };
+
   hevea = callPackage ../tools/typesetting/hevea { };
 
   highlight = callPackage ../tools/text/highlight {
@@ -3282,6 +3284,7 @@ let
   ruby2 = lowPrio (callPackage ../development/interpreters/ruby/ruby-2.0.nix { });
 
   ruby = ruby19;
+  rubyCurses = ruby.override { cursesSupport = true; };
 
   rubyLibs = recurseIntoAttrs (callPackage ../development/interpreters/ruby/libs.nix { });
 

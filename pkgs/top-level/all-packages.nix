@@ -858,6 +858,8 @@ let
 
   fabric = pythonPackages.fabric;
 
+  facter = callPackage ../development/tools/puppet { };
+
   fail2ban = callPackage ../tools/security/fail2ban { };
 
   fakeroot = callPackage ../tools/system/fakeroot { };
@@ -897,6 +899,8 @@ let
   fontforgeX = callPackage ../tools/misc/fontforge {
     withX11 = true;
   };
+
+  foreman = callPackage ../development/tools/foreman { };
 
   forktty = callPackage ../os-specific/linux/forktty {};
 

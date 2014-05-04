@@ -9131,6 +9131,8 @@ let
     gtk = gtk3;
   };
 
+  shipyard-agent = callPackage ../applications/misc/shipyard/shipyard-agent.nix { };
+
   siproxd = callPackage ../applications/networking/siproxd { };
 
   skype = callPackage_i686 ../applications/networking/instant-messengers/skype {

@@ -25,6 +25,7 @@
   calrama = "Moritz Maxeiner <moritz@ucworks.org>";
   cfouche = "Chaddaï Fouché <chaddai.fouche@gmail.com>";
   chaoflow = "Florian Friesdorf <flo@chaoflow.net>";
+  chexxor = "Alex Berg <chexxor@gmail.com>";
   coconnor = "Corey O'Connor <coreyoconnor@gmail.com>";
   coroa = "Jonas Hörsch <jonas@chaoflow.net>";
   cstrahan = "Charles Strahan <charles.c.strahan@gmail.com>";
